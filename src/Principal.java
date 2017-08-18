@@ -9,6 +9,7 @@ public class Principal {
 		
 			//System.out.println(a1.imprimirAluno() + "\n" + "-----------//----------\n" + d1.imprimirDisciplina());
 			JOptionPane.showMessageDialog(null, a1.imprimirAluno() + "\n" + "-----------//----------\n" + d1.imprimirDisciplina());
+	
 	}
 			
 
