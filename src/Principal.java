@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 
 public class Principal {
 	
@@ -6,8 +7,8 @@ public class Principal {
 		Aluno a1 = new Aluno("Juao", "21550575", "Ciencia da Computação", 21, "Masculino", "Norturno");		
 		Disciplina d1 = new Disciplina("LTP-1", "Ciencia da Computação", "B", 37);
 		
-			System.out.println(a1.imprimirAluno() + "\n" + "-----------//----------\n" + d1.imprimirDisciplina());
-	
+			//System.out.println(a1.imprimirAluno() + "\n" + "-----------//----------\n" + d1.imprimirDisciplina());
+			JOptionPane.showMessageDialog(null, a1.imprimirAluno() + "\n" + "-----------//----------\n" + d1.imprimirDisciplina());
 	}
 			
 
